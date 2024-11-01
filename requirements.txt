@@ -1,2 +1,5 @@
-csv == 0.0.13
-os-sys == 2.1.4
+# requirements.txt
+
+# Libraries needed for the Expense Tracker project
+colorama==0.4.6
+pyfiglet==1.0.2

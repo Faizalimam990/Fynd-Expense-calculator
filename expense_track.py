@@ -4,9 +4,31 @@ from datetime import datetime
 from expense import Expense
 from category import Category
 from report_generator import ReportGenerator
+from colorama import init, Fore, Style
+import pyfiglet
+
+
+init(autoreset=True)
+
+
+banner_text = pyfiglet.figlet_format("Expense Tracker", font="big")
+purple_banner = Fore.MAGENTA + banner_text
+
+
+os.system('cls' if os.name == 'nt' else 'clear')
+print(purple_banner)
+
+
+print(Fore.GREEN + "Welcome to the Expense Tracker!")
+print(Fore.CYAN + "Manage your expenses efficiently.")
+print(Fore.YELLOW + "Add, view, and delete expenses with ease.")
+print(Fore.RED + "Generate insightful reports.")
+print(Style.RESET_ALL)
+print(Fore.BLUE + "This is a mid course project for Fynd Academy")
+
 
 class ExpenseTracker:
-    def __init__(self, csv_file='data/expenses.csv'):
+    def __init__(self, csv_file='expenses.csv'):
         self.csv_file = csv_file
         self.expenses = []
         self.category_manager = Category()
@@ -32,7 +54,7 @@ class ExpenseTracker:
             writer.writeheader()
             for expense in self.expenses:
                 writer.writerow(expense.to_dict())
-        print("Expenses saved successfully.")
+        print(Fore.GREEN + "Expense Saved Successfully")
 
     def add_expense(self):
         try:
