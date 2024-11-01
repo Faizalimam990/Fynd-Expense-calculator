@@ -28,7 +28,7 @@ print(Fore.BLUE + "This is a mid course project for Fynd Academy")
 
 
 class ExpenseTracker:
-    def __init__(self, csv_file='expenses.csv'):
+    def __init__(self, csv_file='data/expenses.csv'):
         self.csv_file = csv_file
         self.expenses = []
         self.category_manager = Category()
