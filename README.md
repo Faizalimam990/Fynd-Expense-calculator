@@ -1,6 +1,6 @@
 ﻿# Fynd-Expense-calculator
 
-![Fynd Academy Logo](https://cdn.prod.website-files.com/670cbf146221ee06c3cdd73c/670cbf146221ee06c3cdddee5_Fynd%20Academy%20Logo.svg)
+![Fynd Academy Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtiujolOF_HzyTpo4OPFmoNcYnJ42LeKvxDA&s)
 
 
 ## Overview
