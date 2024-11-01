@@ -7,6 +7,7 @@
 
 Fynd Expense Calculator is a simple yet effective application designed to help users manage their expenses. This project was developed as part of the mid-course project for the Fynd Academy Python Full Stack Course. It allows users to track, filter, and report their expenses easily.
 
+![Overview](https://i.imgur.com/CpC3E4d.png)
 ## Features
 
 - **Add Expense**: Input the amount, date, category, and description of the expense.
