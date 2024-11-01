@@ -15,6 +15,17 @@ Fynd Expense Calculator is a simple yet effective application designed to help u
 - **Delete Expense**: Remove expenses by selecting their index.
 - **Filter by Category**: View expenses by specific categories.
 - **Generate Reports**: Create daily, weekly, or monthly reports of expenses.
+## Objectives
+
+The Fynd Expense Calculator aims to empower users to take control of their finances by providing an intuitive platform for managing expenses. Our key objectives include:
+
+- **Simplifying Expense Tracking**: Make it easy for users to record and monitor their daily expenses without any hassle.
+- **Enhancing Financial Awareness**: Help users gain insights into their spending habits through detailed reports and visualizations.
+- **Encouraging Responsible Spending**: Provide tools that enable users to categorize their expenses, making it easier to identify areas where they can save.
+- **Fostering User Engagement**: Create an interactive experience that motivates users to actively manage their finances.
+- **Supporting Financial Goals**: Assist users in setting and tracking their financial goals through comprehensive reporting features.
+
+By achieving these objectives, we hope to make personal finance management accessible and enjoyable for everyone!
 
 ## Installation
 
@@ -25,15 +36,62 @@ To set up the project on your local machine, follow these steps:
    git clone https://github.com/faizalimam990/Fynd-Expense-calculator.git
    cd Fynd-Expense-calculator
 
-# Expense Tracker
 
-## Install Dependencies
+2. **Install Dependencies**
 
 Make sure you have Python installed. Then, install any necessary libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+2. **Run the Program**
+
+After installation, you can run the application using the following command:
+
+```bash
+python expense_track.py
+```
+## Examples of Interaction
+
+- **Adding an Expense**:
+  - When prompted, enter the amount, date, category, and description. For example:
+    ```
+    Amount: 50.00
+    Date: 2024-11-01
+    Category: Food
+    Description: Dinner at a restaurant
+    ```
+
+- **Viewing Expenses**:
+  - Choose the option to view all expenses, and they will be displayed in a table format, such as:
+    ```
+    | Index | Date       | Amount | Category | Description                 |
+    |-------|------------|--------|----------|-----------------------------|
+    | 1     | 2024-11-01 | 50.00  | Food     | Dinner at a restaurant      |
+    | 2     | 2024-11-02 | 30.00  | Transport | Taxi to airport             |
+    ```
+
+- **Deleting an Expense**:
+  - Select the index of the expense you want to remove. For example, to delete the first expense:
+    ```
+    Enter the index of the expense to delete: 1
+    ```
+
+- **Filtering by Category**:
+  - Enter the desired category to view related expenses. For instance:
+    ```
+    Enter category to filter by: Food
+    ```
+
+- **Generating Reports**:
+  - Choose a time frame (daily, weekly, monthly) to generate a report. You might see a prompt like:
+    ```
+    Select report period: 
+    1. Daily
+    2. Weekly
+    3. Monthly
+    ```
    
 ## How It Works
 
