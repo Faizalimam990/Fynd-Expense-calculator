@@ -45,7 +45,7 @@ Make sure you have Python installed. Then, install any necessary libraries:
 pip install -r requirements.txt
 ```
 
-2. **Run the Program**
+3. **Run the Program**
 
 After installation, you can run the application using the following command:
 
